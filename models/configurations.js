@@ -1,0 +1,3 @@
+let board;
+
+//first phases

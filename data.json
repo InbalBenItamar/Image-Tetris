@@ -1,0 +1,48 @@
+{
+  "viewDefaultDefinitions": {
+    "board":{
+      "geometry": {"width": 500, "height": 500, "widthSegments": 10, "heightSegments": 10},
+      "material": {"color": "0x000000", "wireframe": true},
+      "position": {"x": 0, "y": 0, "z": 0}
+    },
+    "image": {
+      "position": {"x": 500, "y": 0, "z": 10},
+      "geometry": {"width": 250, "height": 250, "widthSegments": 10, "heightSegments": 10},
+      "material": {"color": "0xffffff", "vertexColors": "THREE.FaceColors"}
+    },
+    "cube": {
+      "geometry": {"width" : 50, "height" : 50, "depth": 50},
+      "material": {"color": "0x000000"},
+      "position": {"x": 25, "y": 350, "z": 25},
+      "cubesPerPhase": 10
+    }
+  },
+  "viewConfigByPhase" : {
+    "1": {
+      "segmentWidth": 100,
+      "board":{
+        "geometry": {"width": 500, "height": 500, "widthSegments": 5, "heightSegments": 5},
+        "material": {"color": "#000000", "wireframe": true},
+        "position": {"x": 0, "y": 0, "z": 0}
+      },
+      "image":{
+        "position": {"x": 500, "y": 0, "z": 10},
+        "geometry": {"width": 250, "height": 250, "widthSegments": 5, "heightSegments": 5},
+        "material": {"color": "#ffffff", "vertexColors": "THREE.FaceColors"}
+      },
+      "cube":{
+        "geometry": {"width" : 100, "height" : 100, "depth": 0},
+        "material" : {"color": "#000000"},
+        "position": {"x": 0, "y": 350, "z": 1},
+        "cubesPerPhase": 5
+      },
+      "speed": 0.6
+
+    }
+  },
+  "images": {
+    "phase1": [
+      "1,2,3,4,5,6,10,11,15,16,20,21,22,23,24,25"
+    ]
+  }
+}

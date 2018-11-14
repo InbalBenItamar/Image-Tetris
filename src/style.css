@@ -1,0 +1,10 @@
+#opening-text{
+    font-size: 43px;
+    margin: 0 auto;
+}
+#instructions{
+    font-size: 20px;
+}
+body{
+    overflow: hidden;
+}
